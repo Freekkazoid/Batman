@@ -6,8 +6,9 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/swiper-bundle.css">
    <link rel="stylesheet" href="css/style.css">
-   <title>Document</title>
+   <title>Batman</title>
 </head>
 
 <body>
@@ -34,10 +35,21 @@
                <img src="img/facebook.svg" alt="">
             </a>
          </div>
+         <div class="header_nav-mobile">
+               <a href="#">Описание </a>
+               <a href="#">Трейлер </a>
+               <a href="#">Отзывы </a>
+         </div>
+         <div class="header_menu-close">
+            <img src="img/menu-button-close.svg" alt="">
+         </div>
       </div>
    </header>
    <main class="main">
       <div class="container">
+         <div class="menu-burger">
+            <img src="img/burger.svg" alt="">
+         </div>
          <div class="main_raiting">
             <div class="main_rating-title">2022, боевик, триллер
             </div>
@@ -78,14 +90,54 @@
             </div>
 
          </div>
-         <h1 class="main_header">Бэтмэн</h1>
-         <div class="main_description">
-            После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен становится олицетворением
-            беспощадного возмездия. Когда в городе происходит серия жестоких нападений на представителей элиты,
-            загадочные улики приводят Брюса Уэйна в самые темные закоулки преступного мира. Теперь под прицелом
-            оказывается сам Бэтмен.
+         <h1 class="main_header">Бэтмен</h1>
+         <div class="main_description-wrap">
+             <div class="main_description">
+               После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен становится олицетворением
+                беспощадного возмездия. Когда в городе происходит серия жестоких нападений на представителей элиты,
+                загадочные улики приводят Брюса Уэйна в самые темные закоулки преступного мира. Теперь под прицелом
+                оказывается сам Бэтмен.
+            </div>
+            <div class="main_button-play">
+               <div class="main_button-dark">
+                  <img src="img/play-icon.svg" alt="">
+               </div>
+            </div>
          </div>
          <a href="#" class="main_buttom">Купить билеты</a>
+         <div class="main-slider_wrap">
+            <div class="main-slider swiper">
+               <div class="swiper-wrapper">
+                  <div class="main-slider_slide swiper-slide">
+                     <img src="img/slide-1.svg" alt="">
+                     <span>Трейлер #1</span>
+                  </div>
+                  <div class="main-slider_slide swiper-slide">
+                     <img src="img/slide-2.svg" alt="">
+                     <span>Трейлер #2</span>
+                  </div>
+                  <div class="main-slider_slide swiper-slide">
+                     <img src="img/slide-1.svg" alt="">
+                     <span>Трейлер #3</span>
+                  </div>
+                  <div class="main-slider_slide swiper-slide">
+                     <img src="img/slide-2.svg" alt="">
+                     <span>Трейлер #4</span>
+                  </div>
+                  <div class="main-slider_slide swiper-slide">
+                     <img src="img/slide-1.svg" alt="">
+                     <span>Трейлер #5</span>
+                  </div>
+                  <div class="main-slider_slide swiper-slide">
+                     <img src="img/slide-2.svg" alt="">
+                     <span>Трейлер #6</span>
+                  </div>
+               </div>
+            </div>
+            <div class="main-slider_arrow">
+               <img src="img/arrow-slider.svg" alt="">
+            </div>
+         </div>
       </div>
    </main>
    <footer class="footer">
@@ -100,6 +152,8 @@
          </ul>
       </div>
    </footer>
+   <script src="js/swiper-bundle.js"></script>
+   <script src="js/main.js"></script>
 </body>
 
 </html>
